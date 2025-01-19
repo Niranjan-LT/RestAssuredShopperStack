@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-06T12:38:11 IST" name="Default suite" finished-at="2024-07-06T12:38:19 IST" duration-ms="8095">
+    <groups>
+    </groups>
+    <test started-at="2024-07-06T12:38:11 IST" name="Default test" finished-at="2024-07-06T12:38:19 IST" duration-ms="8095">
+      <class name="api.Tests.UserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.UserTest@55b699ef]" started-at="2024-07-06T12:38:11 IST" name="setup" finished-at="2024-07-06T12:38:11 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest()[pri:1, instance:api.Tests.UserTest@55b699ef]" started-at="2024-07-06T12:38:11 IST" name="createUserTest" finished-at="2024-07-06T12:38:14 IST" duration-ms="3060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUserTest()[pri:2, instance:api.Tests.UserTest@55b699ef]" started-at="2024-07-06T12:38:14 IST" name="getUserTest" finished-at="2024-07-06T12:38:15 IST" depends-on-methods="api.Tests.UserTest.createUserTest" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method signature="updateUserTest()[pri:3, instance:api.Tests.UserTest@55b699ef]" started-at="2024-07-06T12:38:15 IST" name="updateUserTest" finished-at="2024-07-06T12:38:19 IST" depends-on-methods="api.Tests.UserTest.getUserTest" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- api.Tests.UserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
